@@ -17,7 +17,6 @@ body{
   .beer-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start; 
   }
   
   .card-small {
@@ -49,10 +48,12 @@ body{
   @media screen and (max-width: 768px) {
     .beer-list {
       flex-direction: column; 
+
     }
   
     .card-small {
-      max-width: 100%; 
+      max-width: 40%; 
+      margin: 70px auto;
     }
   }
   
